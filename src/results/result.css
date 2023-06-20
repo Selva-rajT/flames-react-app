@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+  .img_container {
+    width: 400px;
+    height:500px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    border-radius: 8px;
+  }
+  .result{
+    width:300px;
+    height:400px ; 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  h2{
+    margin:10px;
+    text-align: center;
+  }
+
+  .home_link{
+    width:100%;
+    position: absolute;
+    bottom:15px;
+    text-align: center;
+  }
