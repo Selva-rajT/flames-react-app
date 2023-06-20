@@ -2,7 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './result.css';
 import { updateData } from '../Apis/Api';
 import { Link } from 'react-router-dom';
-
+import f from '../assests/friend.jpg';
+import l from '../assests/love.jpg';
+import a from '../assests/affectinate.jpg';
+import m from '../assests/marrige.jpg';
+import e from '../assests/enemy.gif';
+import s from '../assests/sister.jpg';
 
 const Result = () => {
 
@@ -16,14 +21,8 @@ const Result = () => {
 
   const flames=['f','l','a','m','e','s'];
   const index=flames.indexOf(result);
-  const imgSrc=[
-    "https://images.pexels.com/photos/2738167/pexels-photo-2738167.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2494701/pexels-photo-2494701.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/10362063/pexels-photo-10362063.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://thumbs.gfycat.com/CloudyAmazingGangesdolphin-size_restricted.gif",
-    "https://images.pexels.com/photos/220413/pexels-photo-220413.jpeg?auto=compress&cs=tinysrgb&w=600"
-  ];
+
+  const imgSrc=[f,l,a,m,e,s];
   const results=[
     ` Friends`,
     ` Lovers`,
